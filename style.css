@@ -1,0 +1,261 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', 'Cormorant' sans-serif;
+    background: url(img/Invitation-main-nocircle.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+    margin: auto;
+}
+
+.h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #04060A;
+}
+
+.h1 {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #7DA6AE;
+}
+
+.p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #04060A;
+}
+
+.cormorant-h2 {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 30px;
+    text-align: center;
+    color: #7DA6AE;
+}
+
+.cormorant-link {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #04060A;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    width: 700px;
+    gap: 30px; 
+    background: #FFFFFF;
+    border: 3px solid #7DA6AE;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 25px;
+}
+
+.btn {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 300px;
+height: 64px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+background: #7DA6AE;
+text-decoration: none;
+margin-top: 10px;
+}
+
+.btn:hover {
+    background: url(img/hover-hearts.png), #7DA6AE;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 31, 90, 0.15);
+    transition-duration: 0.3s;
+  }
+
+.rotate-img {
+    animation: rotation 10s infinite linear;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    top: 357px;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  a {
+    color:#7DA6AE;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 450px) {
+
+	body,
+    html {
+        background: url(img/Invitationmob.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        position: fixed;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #04060A;
+    }
+    
+    .h1 {
+        font-family: 'Cormorant';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #7DA6AE;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 15px;
+        position: relative;
+        width: 345px;
+        height: auto;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(0, 31, 90, 0.15);
+    }
+    
+    .main-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 15px;
+        gap: 30px;
+        width: 315px;
+        height: auto;
+        
+        background: #FFFFFF;
+        border: 2px solid #7DA6AE;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 280px;
+        height: 56px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #7DA6AE;
+        text-decoration: none;
+        margin-top: 10px;
+        }
+
+        .rotate-img {
+            display: none;
+          }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 786px) {
+
+	body,
+    html {
+        background: url(img/Invitation\ 767.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        position: fixed;
+        background-size: cover;
+        margin: auto;
+    }
+}
