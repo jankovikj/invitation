@@ -157,7 +157,6 @@ fieldset {
     align-items: center;
     border: none;
     gap: 30px;
-    margin: 0 40px;
 }
 
 .radio-btn-1 {
@@ -555,7 +554,6 @@ form {
             align-items: center;
             border: none;
             gap: 10px;
-        
         }
 
         .rotate-img {
