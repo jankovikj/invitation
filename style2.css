@@ -149,7 +149,7 @@ html {
     font-weight: 900;
 }
 
-.fieldset {
+fieldset {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -180,7 +180,7 @@ html {
     color: #7DA6AE;
 }
 
-.form {
+form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
