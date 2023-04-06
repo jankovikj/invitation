@@ -323,7 +323,7 @@ form {
 
 	body,
    	html {
-        background: url(img/Invitationmob.jpg)no-repeat center center fixed;
+        background: url(https://github.com/jankovikj/invitation/blob/main/img/Invitation%20-%20mob.jpg)no-repeat center center fixed;
         background-size: contain;
         
         background-size: cover;
@@ -546,7 +546,7 @@ form {
 
 	body,
     html {
-        background: url(img/Invitation\ 767.jpg);
+        background: url(https://github.com/jankovikj/invitation/blob/main/img/Invitation%20767.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain;
