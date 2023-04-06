@@ -422,21 +422,21 @@ form {
             flex-direction: column;
             align-items: flex-start;
             gap: 10px;
-            width: 315px;
+            width: 300px;
             font-weight: 900;
             padding: 5px;
-            width: 330px;
+            width: 300px;
             color: #407A85;
         }
         .radio-btn-1 {
             padding: 5px;
-            width: 330px;
+            width: 300px;
             color: #407A85;
         }
     
         .radio-btn-2 {
             padding: 5px;
-            width: 330px;
+            width: 300px;
             color: #407A85;
         }
 
@@ -445,7 +445,6 @@ form {
             flex-direction: column;
             justify-content: center;
             gap: 20px;
-            width: 300px;
             height: auto;
         }
 
@@ -458,52 +457,33 @@ form {
             width: 280px;   
         }
 
-        .label1 input{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 280px;
-            height: 44px;
-            background: #F3FAFB;
-            border: 1px solid #7DA6AE;
-        }
-
-        .label2 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            gap: 10px;
-            width: 280px;   
-        }
-
-        .label2 input{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            width: 280px;
-            height: 44px;
-            background: #F3FAFB;
-            border: 1px solid #7DA6AE;
-        }
+	.label1 input {
+	    display: flex;
+	    flex-direction: row;
+	    align-items: flex-start;
+	    width: 680px;
+	    height: 44px;
+	    background: #F3FAFB;
+	    border: 1px solid #7DA6AE;
+	{
 
         .radio-btns-menu {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             gap: 10px;
-            width: 315px;
+            width: 300px;
             font-weight: 900;
         }
         .radio-btn-menu1 {
             padding: 5px;
-            width: 330px;
+            width: 300px;
             color: #407A85;
         }
     
         .radio-btn-menu2 {
             padding: 5px;
-            width: 330px;
+            width: 300px;
             color: #407A85;
         }
 
