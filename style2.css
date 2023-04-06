@@ -322,7 +322,7 @@ form {
 @media only screen and (max-width: 450px) {
 
 	body,
-    html {
+   	html {
         background: url(img/Invitationmob.jpg)no-repeat center center fixed;
         background-size: contain;
         
@@ -364,7 +364,7 @@ form {
         overflow: auto;
         padding: 15px;
         gap: 15px;
-        width: 345px;
+        width: 315px;
         height: auto;
         margin-top: 30px;
         background: #FFFFFF;
@@ -379,7 +379,7 @@ form {
         align-items: center;
         padding: 30px 15px;
         gap: 20px;
-        width: 315px;
+        width: 285px;
         height: auto;
         
         background: #FFFFFF;
@@ -425,18 +425,18 @@ form {
             width: 300px;
             font-weight: 900;
             padding: 5px;
-            width: 300px;
+            width: 285px;
             color: #407A85;
         }
         .radio-btn-1 {
             padding: 5px;
-            width: 300px;
+            width: 285px;
             color: #407A85;
         }
     
         .radio-btn-2 {
             padding: 5px;
-            width: 300px;
+            width: 285px;
             color: #407A85;
         }
 
@@ -454,14 +454,14 @@ form {
             justify-content: center;
             align-items: flex-start;
             gap: 10px;
-            width: 280px;   
+            width: 285px;   
         }
 
 	.label1 input {
 	    display: flex;
 	    flex-direction: row;
 	    align-items: flex-start;
-	    width: 680px;
+	    width: 285px;
 	    height: 44px;
 	    background: #F3FAFB;
 	    border: 1px solid #7DA6AE;
@@ -472,18 +472,18 @@ form {
             flex-direction: column;
             align-items: flex-start;
             gap: 10px;
-            width: 300px;
+            width: 285px;
             font-weight: 900;
         }
         .radio-btn-menu1 {
             padding: 5px;
-            width: 300px;
+            width: 285px;
             color: #407A85;
         }
     
         .radio-btn-menu2 {
             padding: 5px;
-            width: 300px;
+            width: 285px;
             color: #407A85;
         }
 
@@ -500,7 +500,7 @@ form {
             justify-content: center;
             align-items: center;
             gap: 15px;
-            width: 300px;
+            width: 285px;
             height: 56px;
             background: #FFFFFF;
             border: 2px solid #7DA6AE;
